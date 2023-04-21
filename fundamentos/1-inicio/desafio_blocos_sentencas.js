@@ -1,5 +1,5 @@
 //desafio 
-//escrever os numeros e impas de 1 - 10
+//escrever os numeros pares e impas de 1 - 10
 
 /*
  //bloco impar
