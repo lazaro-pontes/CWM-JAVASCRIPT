@@ -12,9 +12,7 @@ essa é a forma estrutural de um livro, da mesma forma nós fazemos em JavaScrip
 `console.log("sentença de código");`
 
 em JavaScript a senteça também pode ocupar mais de uma linha
-
-    `
+    
     console.log(
         "sentença de código"
     );
-    ´
