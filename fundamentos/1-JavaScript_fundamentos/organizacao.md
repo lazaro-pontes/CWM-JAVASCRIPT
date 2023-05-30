@@ -28,15 +28,15 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
 
 - você pode criar blocos vazios  
 
-    {
+        {
 
-    }
+        }
 
 - existem blocos associados a funções:  
 
-    `function soma(a, b){  
-        resultado = a + b;  
-    }`  
+        function soma(a, b){  
+            resultado = a + b;  
+        }  
 
 - existem blocos associados a classes:  
 
@@ -49,20 +49,18 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
 
 - existem blocos associados a objetos:  
 
-    var objeto_carro = {
-
-        modelo: X6,  
-        marca: BMW,  
-        cor: azul,  
-        dono: JohnLaz  
-    };  
+        var objeto_carro = {
+            modelo: X6,  
+            marca: BMW,  
+            cor: azul,  
+            dono: JohnLaz  
+        };  
 
 - existem blocos associados a estruturas de controle:  
 
-    if (nota >= 7) {  
-
-        console.log('passou de ano')  
-    }  
+        if (nota >= 7) {  
+            console.log('passou de ano')  
+        }  
 
 > nós podemos ter **blocos dentro de blocos**  
 > **não esqueça** de **fechar os blocos** isso causa *Bugs*
