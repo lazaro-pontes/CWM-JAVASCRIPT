@@ -40,12 +40,12 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
 
 - existem blocos associados a classes:  
 
-    class Retangulo {  
-        constructor(altura, largura) {  
-        this.altura = altura;  
-        this.largura = largura;  
-        }  
-    }
+        class Retangulo {  
+            constructor(altura, largura) {  
+            this.altura = altura;  
+            this.largura = largura;  
+            }  
+        }
 
 - existem blocos associados a objetos:  
 
