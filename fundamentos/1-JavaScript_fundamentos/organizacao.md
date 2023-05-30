@@ -8,11 +8,15 @@ assim com em português nós organizamos um livre em que letras que forma palavr
 essa é a forma estrutural de um livro, da mesma forma nós fazemos em JavaScript.
 
 ## Exemplos
+usamos aspas simples ou duplas para escrever **strings**  
 
 `console.log("sentença de código");`
 
-em JavaScript a senteça também pode ocupar mais de uma linha
+em JavaScript a senteça também pode ocupar mais de uma linha, mas a quebra não pode ocorrer em qualquer ponto.
 
     console.log(
-        "sentença de código"
+        'sentença de código'
     );
+
+a virgula não é obrigatoria e podemos usar **backticks** *(crase)* para escrever **strings**  
+``console.log(`sentença usando crase`)``
