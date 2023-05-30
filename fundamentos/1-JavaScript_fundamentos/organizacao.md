@@ -35,7 +35,6 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
 - existem blocos associados a funções:  
 
     function soma(a, b){  
-
         resultado = a + b;  
     }  
 
