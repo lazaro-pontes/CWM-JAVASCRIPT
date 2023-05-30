@@ -60,4 +60,4 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
     }  
 
 > nós podemos ter **blocos dentro de blocos**  
-> não esqueça de **fechar os blocos** isso causa *Bugs*
+> **não esqueça** de **fechar os blocos** isso causa *Bugs*
