@@ -29,7 +29,7 @@ essas são algumas estruturas classicas de organização de dados na vida real, 
 
 ## Variáveis e Constantes
 
-são locais na memoria onde armazenamos os dados, esse conceitos servem pra rotular os valores que esta na memoria, **constantes** não podem ser alterados no decorrer dos algoritmos.
+são locais na memoria onde armazenamos os dados, esse conceitos servem pra rotular os valores que estam na memoria, **constantes** não podem ser alterados no decorrer dos algoritmos.
 
 ## Operações
 
