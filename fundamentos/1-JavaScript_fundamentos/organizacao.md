@@ -35,11 +35,14 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
 - existem blocos associados a funções:  
 
     function soma(a, b){  
+
         resultado = a + b;  
     }  
 
 - existem blocos associados a classes:  
+
     class Retangulo {  
+
         constructor(altura, largura) {  
         this.altura = altura;  
         this.largura = largura;  
@@ -47,7 +50,9 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
     }
 
 - existem blocos associados a objetos:  
-    var objeto_carro = {  
+
+    var objeto_carro = {
+
         modelo: X6,  
         marca: BMW,  
         cor: azul,  
@@ -55,7 +60,9 @@ códigos JS também são organizados em blocos de código, que são agrupadores 
     };  
 
 - existem blocos associados a estruturas de controle:  
-    if(nota >= 7) {  
+
+    if (nota >= 7) {  
+
         console.log('passou de ano')  
     }  
 
