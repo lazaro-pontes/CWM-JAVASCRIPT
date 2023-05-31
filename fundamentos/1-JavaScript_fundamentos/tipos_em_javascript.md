@@ -31,3 +31,30 @@ string é uma tipo que representa uma cadeia de caracteres. no *javascript* uma 
 - aspas duplas
 - aspas simples
 - simbolo de crase
+
+As Strings possuem varias funçoes associadas.
+
+    const escola = "cod3r"
+
+    console.log(escola.charAt(4))
+    console.log(escola.charAt(5))
+    console.log(escola.charCodeAt(3))
+    console.log(escola.indexOf("3"))
+
+    console.log(escola.substring(1))
+    console.log(escola.substring(0, 3))
+
+    console.log("escola ".concat(escola).concat("!"))
+    console.log(escola.replace(3, "e"))
+
+    console.log("Ana, Maria, Pedro".split(","))
+
+explicando cada função:
+
+- **charAt** retorna o caractere na posição tal
+- **charCodeAt** retorna o codigo uniCode do caractere
+- **indexOf** retorna o indice de determinado caractere
+- **substring** retorna um trecho da String (inicio, fim)
+- **concat** concatena, pode ser substituido pelo: **+**
+- **replace** substitui um caractere por outro
+- **split** quebra a String em um Array dado um separador
