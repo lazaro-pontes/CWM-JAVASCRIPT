@@ -77,3 +77,5 @@ Apenas o que esta entre chaves sera interpolado
 
 Referencias futuras: [MDN String Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
 
+## Boolean
+
