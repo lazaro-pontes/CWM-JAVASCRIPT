@@ -8,7 +8,7 @@ este é o tipo que representa os numeros em javascript, sejam eles inteiros ou p
 
 o tipo Number permite que usemos algumas funções especificas para numeros.
 
-para referencias futuras: [MDM Number JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+para referencias futuras: [MDN Number JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 ### Objeto Math
 
@@ -22,7 +22,7 @@ Math é um Object que contem varias funçoes e constantes dentro dele isso permi
 
 > Math.pow é a operação de potencia
 
-para referencia futura: [MDM Math javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math)
+para referencia futura: [MDN Math javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ## String
 
@@ -58,3 +58,22 @@ explicando cada função:
 - **concat** concatena, pode ser substituido pelo: **+**
 - **replace** substitui um caractere por outro
 - **split** quebra a String em um Array dado um separador
+- **toUpperCase** transforma a String em maiúsculo
+
+### Template String
+
+É uma forma de concatenar varias strings de uma forma mais pratica e elegante, sem deixar o codigo sujo e feio com um monte de **.concat** e **+**.
+
+Ela funciona usando o **simbode de crase** e interpola variaveis com **${}**
+
+>``template_string = `ola ${nome_da_variavel}, happy!` ``
+
+Dentro de template strings você pode realizar operações
+
+>`` console.log(`1 + 1 = ${1+1}`) ``  
+> resultado será: 1 + 1 = 2
+
+Apenas o que esta entre chaves sera interpolado
+
+Referencias futuras: [MDN String Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)
+
