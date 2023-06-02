@@ -79,3 +79,20 @@ Referencias futuras: [MDN String Javascript](https://developer.mozilla.org/pt-BR
 
 ## Boolean
 
+O tipo boleano representa o **verdadeiro** e **falso**, mas em javascript nós temos uma serie de valores que resolvem para um desses casos.
+
+> exemplos de casos que resolve para **VERDADEIRO**.
+
+- numeros inteiros.
+- strings preenchidas, mesmo que com 1 espaço.
+- um Array vazio.
+- um Objeto literal
+- o tipo infinity
+
+> exemplos de casos que resolve para **FALSO**.
+
+- o numero 0
+- string vazia
+- null
+- NaN
+- undefined
