@@ -4,7 +4,7 @@ tipos são a forma basica de se estruturar dados em uma linguagem, Javascript ve
 
 ## Number
 
-este é o tipo que representa os numeros em javascript, sejam eles inteiros ou pontos flutuantes.  
+este é o tipo que representa os numeros em javascript, sejam eles inteiros ou ponto flutuantes.  
 
 o tipo Number permite que usemos algumas funções especificas para numeros.
 
@@ -54,7 +54,7 @@ explicando cada função:
 - **charAt** retorna o caractere na posição tal
 - **charCodeAt** retorna o codigo uniCode do caractere
 - **indexOf** retorna o indice de determinado caractere
-- **substring** retorna um trecho da String (inicio, fim)
+- **substring** retorna um trecho da String `(inicio, fim)`
 - **concat** concatena, pode ser substituido pelo: **+**
 - **replace** substitui um caractere por outro
 - **split** quebra a String em um Array dado um separador
@@ -62,9 +62,9 @@ explicando cada função:
 
 ### Template String
 
-É uma forma de concatenar varias strings de uma forma mais pratica e elegante, sem deixar o codigo sujo e feio com um monte de **.concat** e **+**.
+É uma forma de concatenar varias strings de uma forma mais pratica e elegante, sem deixar o codigo sujo e feio com um monte de **.concat** e/ou **+**.
 
-Ela funciona usando o **simbode de crase** e interpola variaveis com **${}**
+Ela funciona usando o **simbolo de crase** e interpola variaveis com **${}**
 
 >``template_string = `ola ${nome_da_variavel}, happy!` ``
 
@@ -96,3 +96,7 @@ O tipo boleano representa o **verdadeiro** e **falso**, mas em javascript nós t
 - null
 - NaN
 - undefined
+
+## Array
+
+
