@@ -99,4 +99,29 @@ O tipo boleano representa o **verdadeiro** e **falso**, mas em javascript nós t
 
 ## Array
 
+O Array é o vetor, uma estrutura unidmensional que armazena diversos valores com um unico identificador. Por exemplo invés de criarmos diversas variaveis para armazenar as notas de todos os alunos em uma sala criamos apenas um **Array** chamado alunos.
 
+O Array é uma estrutura indexada, ou seja, ela tem indices começando a partir do **0**. Em Javascript seu tamanho não é fixo e seus valores são heterogeneos, o que quer dizer que um mesmo Array pode ter varios tipos de dados diferentes.
+
+Existem algumas maneiras de criar Arrays, uma delas é a forma literal, abrindo colchetes e separando os elementos por virgula. 
+
+Exemplo:  
+> const valores = [7.9, 8.9, 3.7, 10]  
+>
+> console.log(valores[0], valores[3])
+
+Os valores retornados no console serão: `7.9 10`  
+Lembrando que os elementos começam do **indice 0**.
+
+Caso você tente acessar um indice que não esteja no Array o Javascript retornará **undefined**. Para saber o tamanho do Array basta usar: *nome_do_Array* **.length**.
+
+A função **.push()** adiciona elementos a um Array após a ultima posição.  
+
+A função **.pop()** retorna o ultimo elemento do Array e remove este do Array.
+
+para excluir um elemento do Array: **delete valores[0]**,
+nesse caso teriamos excluído o valor `7.9`.
+
+Em **JavaScript** um **Array é** do tipo **Object**
+
+## Object
