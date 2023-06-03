@@ -144,7 +144,7 @@ Nessa forma você declara um objeto vazio e o preenche de acordo com a necessida
 > **{nome: Iphone 14, preco: 5000}**
 >
 > *é possivel usar indentificadores com espaço, porem isso deve ser evitado*  
-> **exemplo:** prod1[“deconto legal“] = 0.40
+> **exemplo:** `prod1[“deconto legal“] = 0.40`
 
 - **FORMA LITERAL**
 
