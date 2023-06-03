@@ -99,14 +99,14 @@ O tipo boleano representa o **verdadeiro** e **falso**, mas em javascript nós t
 
 ## Array
 
-O Array é o vetor, uma estrutura unidmensional que armazena diversos valores com um unico identificador. Por exemplo invés de criarmos diversas variaveis para armazenar as notas de todos os alunos em uma sala criamos apenas um **Array** chamado alunos.
+O Array é o vetor, uma estrutura unidmensional que armazena diversos valores com um unico identificador. Por exemplo invés de criarmos diversas variaveis para armazenar as notas de todos os alunos em uma sala criamos apenas um **Array** chamado **alunos**.
 
 O Array é uma estrutura indexada, ou seja, ela tem indices começando a partir do **0**. Em Javascript seu tamanho não é fixo e seus valores são heterogeneos, o que quer dizer que um mesmo Array pode ter varios tipos de dados diferentes.
 
 Existem algumas maneiras de criar Arrays, uma delas é a forma literal, abrindo colchetes e separando os elementos por virgula. 
 
 Exemplo:  
-> const valores = [7.9, 8.9, 3.7, 10]  
+> const alunos_notas = [7.9, 8.9, 3.7, 10]  
 >
 > console.log(valores[0], valores[3])
 
