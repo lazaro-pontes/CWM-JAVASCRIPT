@@ -20,9 +20,9 @@ essas são algumas estruturas classicas de organização de dados na vida real, 
 
 - INT
   - numeros inteiro **(1, 3, 9)**
-- REAL
+- REAL (**float**)
   - numeros reais **(1.45, 3.1415, 7.45)**
-- LETRA
+- LETRA (**string**)
   - a depender da linguagem uma sequência de letras
 - BOOLEANO
   - valores verdadeiro ou falso
