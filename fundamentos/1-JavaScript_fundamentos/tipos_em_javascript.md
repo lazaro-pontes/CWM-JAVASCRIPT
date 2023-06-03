@@ -132,11 +132,13 @@ Para criar um Objeto usamos as chaves: **{}**, existem 2 formas de declarar Obje
 
 - **FORMA DINÂMICA**
 
-        const prod1 = {}
-        prod1.nome = “Iphone 14“
-        prod1.preco = 5000
+Nessa forma você declara um objeto vazio e o preenche de acordo com a necessidade e para isso usamos a notação ponto (ou seja, ponto e o nome do atributo).
 
-        console.log(prod1)
+    const prod1 = {}
+    prod1.nome = “Iphone 14“
+    prod1.preco = 5000
+
+    console.log(prod1)
 
 > resultado no console
 > **{nome: Iphone 14, preco: 5000}**
