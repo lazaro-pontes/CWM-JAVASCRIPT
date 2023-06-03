@@ -113,13 +113,14 @@ Exemplo:
 Os valores retornados no console serão: `7.9 10`  
 Lembrando que os elementos começam do **indice 0**.
 
-Caso você tente acessar um indice que não esteja no Array o Javascript retornará **undefined**. Para saber o tamanho do Array basta usar: *nome_do_Array* **.length**.
+Caso você tente acessar um indice que não esteja no Array o Javascript retornará **undefined**.  
+Para saber o tamanho do Array basta usar: *nome_do_Array* **.length**.
 
 A função **.push()** adiciona elementos a um Array após a ultima posição.  
 
 A função **.pop()** retorna o ultimo elemento do Array e remove este do Array.
 
-para excluir um elemento do Array: **delete valores[0]**,
+para excluir um elemento do Array: **delete alunos_notas[0]**,
 nesse caso teriamos excluído o valor `7.9`.
 
 Em **JavaScript** um **Array é** do tipo **Object**
