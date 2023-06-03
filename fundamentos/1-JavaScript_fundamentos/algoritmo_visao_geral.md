@@ -1,8 +1,9 @@
 # ALGORITMO
 
-Algoritmo é uma sequência de passos.
+Algoritmo é uma sequência de passos. não necessariamente está ligado a desenvolvimento de software.
 
-> ### exemplo de algoritmo pra chegar na Estação:
+> ## exemplo de algoritmo pra chegar na Estação:
+>
 >   1. sair de casa.
 >   2. trancar a porta.
 >   3. andar até a ponte.
