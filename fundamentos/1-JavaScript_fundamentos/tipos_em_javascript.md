@@ -56,9 +56,9 @@ explicando cada função:
 - **indexOf** retorna o indice de determinado caractere
 - **substring** retorna um trecho da String `(inicio, fim)`
 - **concat** concatena, pode ser substituido pelo: **+**
-- **replace** substitui um caractere por outro
-- **split** quebra a String em um Array dado um separador
-- **toUpperCase** transforma a String em maiúsculo
+- **replace** substitui um caractere por outro.
+- **split** quebra a String em um Array dado um separador, no caso a vírgula.
+- **toUpperCase** transforma a String em maiúsculo.
 
 ### Template String
 

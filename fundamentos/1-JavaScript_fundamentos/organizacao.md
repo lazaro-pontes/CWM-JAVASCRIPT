@@ -1,7 +1,7 @@
 # ORGANIZAÇÃO BASICA DO JAVASCRIPT
 
 O JS é organizado em linhas (sentenças) de codigo e blocos de codigo.  
-assim com em português nós organizamos um livre em que letras que forma palavras, que por sua vez formam sentenças (frases), que então formam parágrafos e assim capitulos que por fim formam um livro.  
+assim como em português nós **organizamos um livro** em que **letras** que formam **palavras**, que por sua vez formam **sentenças (frases)**, que então formam **parágrafos** e assim **capitulos** que por fim formam um **livro**.  
 
 > letras -> palavras -> frases -> parágrafos -> capitulos -> livro
 
