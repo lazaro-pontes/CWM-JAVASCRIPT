@@ -8,9 +8,9 @@ Existem comentários de bloco e de linha.
     //tudo que esta nessa linha nao sera processado
 
 
-    //console.log -> isso nao sera exibido
+    //console.log <-- isso nao sera exibido no console
 
-    /*isso sim->*/ console.log("essa é uma forma nova de escrever um comentario")
+    /*isso sim -->*/ console.log("essa é uma forma nova de escrever um comentario")
 
     /* desse modo tudo que estiver 
     entre as barras é comentado, 
