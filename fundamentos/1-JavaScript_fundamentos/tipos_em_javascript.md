@@ -108,7 +108,7 @@ Existem algumas maneiras de criar Arrays, uma delas é a forma literal, abrindo 
 Exemplo:  
 > const alunos_notas = [7.9, 8.9, 3.7, 10]  
 >
-> console.log(valores[0], valores[3])
+> console.log(alunos_notas[0], alunos_notas[3])
 
 Os valores retornados no console serão: `7.9 10`  
 Lembrando que os elementos começam do **indice 0**.
