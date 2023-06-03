@@ -132,11 +132,11 @@ Para criar um Objeto usamos as chaves: **{}**, existem 2 formas de declarar Obje
 
 - **FORMA DINÂMICA**
 
-    const prod1 = {}
-    prod1.nome = “Iphone 14“
-    prod1.preco = 5000
+        const prod1 = {}
+        prod1.nome = “Iphone 14“
+        prod1.preco = 5000
 
-    console.log(prod1)
+        console.log(prod1)
 
 > resultado no console
 > **{nome: Iphone 14, preco: 5000}**
