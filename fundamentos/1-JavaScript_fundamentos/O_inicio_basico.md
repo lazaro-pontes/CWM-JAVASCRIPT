@@ -26,16 +26,16 @@ em JavaScript temos algumas palavras reservadas para criar variaveis:
 
 A anatomia da criação de variaveis é assim:
 
-- PALAVRA RESERVADA
+- PALAVRA RESERVADA (**var, let, const**)
 - NOME DA VARIAVEL
-- SIMBOLO DE ATRIBUIÇÃO (em JS é o igual: **=**)
+- SIMBOLO DE ATRIBUIÇÃO (em JS é o igual: **=** )
 - VALOR DA VARIAVEL
 
 > var a = 4  
 > let b = 5  
 > const c = 7  
 
-existem diferenças entre as palavras reservadas. **const** define constantes, ou seja, elas não podem ser alteradas durante a execução, **var** e **let** definem variaveis comuns porem **let** é a **forma mais moderna**.
+existem diferenças entre as palavras reservadas.   **const** define constantes, ou seja, elas não podem ser alteradas durante a execução, **var** e **let** definem variaveis comuns, porém **let** é a **forma mais moderna**.
 
 > **defina nomes claros paras suas variaveis.**  
 > evite usar nomes genéricos e siglas.
@@ -79,7 +79,7 @@ ja quando temos uma constante isso não é possivel, gera um erro:
 
 ## Tipagem fraca
 
-a tipagem fraca significar que não precisamos definir o tipo de dado da variavel, ou seja, ela tem tipagem dinâmica, mas tipagem fraca nao significa que ela não tem tipos, apenas que uma variavel poderia atribuir-se varios tipos.
+a tipagem fraca significar que não precisamos definir o tipo de dado da variavel, ou seja, ela tem tipagem dinâmica, mas tipagem fraca nao significa que ela não tem tipos, apenas que uma variavel aceita vários tipos.
 
 ### exemplo de tipo fraco
 
