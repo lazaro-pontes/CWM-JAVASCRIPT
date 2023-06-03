@@ -103,7 +103,7 @@ O Array é o vetor, uma estrutura unidmensional que armazena diversos valores co
 
 O Array é uma estrutura indexada, ou seja, ela tem indices começando a partir do **0**. Em Javascript seu tamanho não é fixo e seus valores são heterogeneos, o que quer dizer que um mesmo Array pode ter varios tipos de dados diferentes.
 
-Existem algumas maneiras de criar Arrays, uma delas é a forma literal, abrindo colchetes e separando os elementos por virgula. 
+Existem algumas maneiras de criar Arrays, uma delas é a forma literal, abrindo colchetes e separando os elementos por virgula.
 
 Exemplo:  
 > const alunos_notas = [7.9, 8.9, 3.7, 10]  
@@ -126,3 +126,29 @@ nesse caso teriamos excluído o valor `7.9`.
 Em **JavaScript** um **Array é** do tipo **Object**
 
 ## Object
+
+O objeto é uma coleção de pares **chave** e **valor**.  
+Para criar um Objeto usamos as chaves: **{}**, existem 2 formas de declarar Objetos, a forma **dinâmica** e a **literal**.
+
+- **FORMA DINÂMICA**
+
+    const prod1 = {}
+    prod1.nome = “Iphone 14“
+    prod1.preco = 5000
+
+    console.log(prod1)
+
+> resultado no console
+> **{nome: Iphone 14, preco: 5000}**
+>
+> *é possivel usar indentificadores com espaço, porem isso deve ser evitado*  
+> **exemplo:** prod1[“deconto legal“] = 0.40
+
+- **FORMA LITERAL**
+
+Nessa forma você abre as chaves e separa os pares por virgula:
+
+    const produto = {
+        nome: “Iphone 13“,
+        preco: 3500
+    }
