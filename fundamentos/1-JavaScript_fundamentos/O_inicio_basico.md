@@ -35,7 +35,9 @@ A anatomia da criação de variaveis é assim:
 > let b = 5  
 > const c = 7  
 
-existem diferenças entre as palavras reservadas.   **const** define constantes, ou seja, elas não podem ser alteradas durante a execução, **var** e **let** definem variaveis comuns, porém **let** é a **forma mais moderna**.
+existem diferenças entre as palavras reservadas.  
+
+**const** define constantes, ou seja, elas não podem ser alteradas durante a execução, **var** e **let** definem variaveis comuns, porém **let** é a **forma mais moderna**.
 
 > **defina nomes claros paras suas variaveis.**  
 > evite usar nomes genéricos e siglas.
