@@ -2,7 +2,7 @@
 
 Algoritmo é uma sequência de passos. não necessariamente está ligado a desenvolvimento de software.
 
-> ## exemplo de algoritmo pra chegar na Estação:
+> ## exemplo de algoritmo pra chegar na Estação
 >
 >   1. sair de casa.
 >   2. trancar a porta.
@@ -33,10 +33,9 @@ Além de repetir você também pode escolher passos em detrimento de outros ou a
 
 fica claro a partir desse fluxograma que apenas um dos passos sera executado, **aprovado** ou **reprovado**, nunca os dois juntos, pois o valor da nota diz qual lado da logica ele vai.
 
-### Mais sobre decisão:
+### Mais sobre decisão
 
 ![mais sobre decisão](/prints/Captura%20de%20tela%20de%202023-05-24%2003-50-21.png)
-
 
 ## ALGORITMOS NA VIDA
 
@@ -48,7 +47,6 @@ fica claro a partir desse fluxograma que apenas um dos passos sera executado, **
     > um classico, pois nele nós temos os **ingredientes** que seriam os **dados**, o passo a passo e estruturas de repetição
 - SEDEX ou PAC
 - 2³
-
 
 ### Algoritmo de vestir *(versão 1.0)*
 
@@ -77,9 +75,10 @@ A ordem dos passos importa não apenas quais passos.
 - linguagem artificial
     > JavaScript, PHP, C#, GO...
 - pseudo-linguagem
+
     > 1. Algoritmo "SomaDoisValores"
     > 2. **declare**
-    > 3.    *soma*, *a*, *b:* inteiro
+    > 3. *soma*, *a*, *b:* inteiro
     > 4. **inicio**
     > 5. escreva(**"digite dois números"**)
     > 6. leia (**a,b**)
