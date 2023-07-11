@@ -8,7 +8,7 @@ Escopo seria o local onde a variavel seria visivel/acessível. Em outras linguag
 
 ## Var  
 
-Quando declaramos variaveis com **var** temos apenas dois *escopos*: **Global** e **Local**. No caso o **escopo local** seria apenas quando definada dentro de uma **função**.  
+Quando declaramos variaveis com **var** temos apenas dois *escopos*: **Global** e **Local**. No caso o **escopo local** seria **apenas** quando definada dentro de uma **função**.  
 
 O grande perigo de declararmos **variaveis Globais** é apossibilidade de sobreescrita da mesma por algum descuido.
 
