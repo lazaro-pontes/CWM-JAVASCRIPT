@@ -27,4 +27,12 @@ As sentenças de codigo dentro de um programa são lidas de cima pra baixo, no c
     console.log(a)
     var a = 10
 
-c   onsole.log(a)
+    console.log(a)
+
+O caso acima não gera um erro pois acxontece o hoisting e a variavel da segunda linha seria movida pro topo como se tivessemos escrito assim:
+
+    var a
+    console.log(a)
+
+    a = 10
+    console.log(a)
