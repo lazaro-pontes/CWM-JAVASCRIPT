@@ -13,3 +13,9 @@ Quando declaramos variaveis com **var** temos apenas dois *escopos*: **Global** 
 O grande perigo de declararmos **variaveis Globais** é apossibilidade de sobreescrita da mesma por algum descuido.
 
 *vide exercicios: usandoVar.js*.
+
+## Let
+
+Já usando **let** o conceito de *Local* se aplica também em bloco onde a variavel definida com *let* sera visivel apenas dentro do bloco em questão. Caso tentemos usar uma variavel que não esteja no bloco atual o JavaScript irá procurar em blocos mais abrangentes.
+
+Variaveis definidas com **let** tem escopo de: **GLOBAL**, **FUNÇÃO** e **BLOCO**
