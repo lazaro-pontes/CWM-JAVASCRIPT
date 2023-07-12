@@ -1,6 +1,6 @@
 # Função e Objeto
 
-Um **Objeto** por baixo dos panos **é uma função**, na realidade, quando criamos um Objeto literal la no exemplo de *tipos em javascript* o que estamos fazendo é estanciar uma função. *vide exercicios/objeto.js*
+Um **Objeto** por baixo dos panos **é uma função**, na realidade, quando criamos um Objeto literal la no exemplo de *tipos em javascript* o que estamos fazendo é estanciar uma função. **vide** *exercicios/objeto.js*
 
     console.log(typeof Object) // retorna Function
     console.log(typeof new Object) // retorna Object
