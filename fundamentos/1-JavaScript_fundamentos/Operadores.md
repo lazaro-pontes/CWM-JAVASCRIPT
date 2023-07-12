@@ -58,3 +58,6 @@ No caso com **Arrays** algumas coisa mudam a primeira é que usaremos **colchete
     const [n1, , n3, , n5,n6 = 0] = [10, 7, 9, 8]
 
 **vide:** *exercicios/destructuring.js*
+
+Outro contexto interessante para se usar **destructuring** é em funções e não so diretamente na atribuição, mas como parametro da função.  
+Dessa forma podemos passar objetos para funções e fazer com que elas ja tratem dos valores da forma correta sem usar a notação ponto.
