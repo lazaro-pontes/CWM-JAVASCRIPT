@@ -44,5 +44,5 @@ A notação ponto serve para acessarmos membros de uma função ou Objeto, tais 
     
     console.log(objeto_1.nome)
 
-No exemplo acima temos o Objeto Math da api do JS e acessamos sua função que arredonda numeros para cima.
+No exemplo acima temos o **Objeto Math** da api do JS e acessamos sua função que arredonda numeros para cima.  
 Também criamos um atributo dinamicamente no Objeto 1.
