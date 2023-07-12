@@ -61,3 +61,6 @@ No caso com **Arrays** algumas coisa mudam a primeira é que usaremos **colchete
 
 Outro contexto interessante para se usar **destructuring** é em funções e não so diretamente na atribuição, mas como parametro da função.  
 Dessa forma podemos passar objetos para funções e fazer com que elas ja tratem dos valores da forma correta sem usar a notação ponto.
+
+**vide** *execicios/destructuring3.js*
+**vide** *execicios/destructuring4.js*
