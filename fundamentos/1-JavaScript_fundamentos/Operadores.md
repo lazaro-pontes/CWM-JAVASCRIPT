@@ -45,7 +45,7 @@ E caso precisemos mudar o nome das variaveis que estão no objeto? fariamos isso
     const { nome: n, idade: i} = pessoa
     console.log(n, i)
 
-E no caso do endereço que é um objeto dentro de pessoa?  
+E no caso do *endereço* que é um objeto dentro de pessoa?  
 A solução seria essa:  
 
     const { endereco: {logradouro, numero} } = pessoa
