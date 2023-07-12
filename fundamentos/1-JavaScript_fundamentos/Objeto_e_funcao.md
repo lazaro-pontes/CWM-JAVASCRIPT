@@ -1,6 +1,6 @@
 # Função e Objeto
 
-Um **Objeto** por baixo dos panos **é uma função**, na realidade, quando criamos um Objeto literal la no exemplo de *tipos em javascript* o que estamos fazendo é estanciar uma função. **vide** *exercicios/objeto.js*
+Um **Objeto** por baixo dos panos **é uma função**, na realidade, quando criamos um Objeto literal la no exemplo de *tipos em javascript* o que estamos fazendo é estanciar uma função. **vide**: *exercicios/objeto.js*
 
     console.log(typeof Object) // retorna Function
     console.log(typeof new Object) // retorna Object
@@ -14,3 +14,21 @@ a partir do **ECMASCRIPT 6 (ES6) DE 2015** nos temos o conceito de classe, que n
     class Produto {} // ES 2015 (ES6)
     console.log(typeof Produto) // Function
     console.log(typeof new Produto) // instancia de Produto (objeto)
+
+## PAR Nome/Valor
+
+objeto é uma coleção de chave valor. esse conceito permeia o javascript em todo lugar. ele esta presente também na criação de variaveis.
+
+Variaveis e constantes tem um contexto lexico, um escopo, local onde aquele par chave/valor sera executado e visivel.
+
+Objetos são grupos aninhados de nome/valor. E podemos aninhar Objetos, inclusive com nomes iguais aos de fora pois são contextos diferentes.
+
+    const client = {
+        nome: `Pedro`,
+        idade: 33,
+        peso: 90,
+        endereco: {
+            nome: `Rua das almas`,
+            numero: 123
+        }
+    }
