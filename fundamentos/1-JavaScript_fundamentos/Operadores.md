@@ -12,4 +12,5 @@ existem algumas variações desse operador usando operações aritmeticas:
 - atribuição divisiva
 - atribuição modular
 
-Em todas essas variações usamos o simbolo arimetico da operação em questão seguido do operado de atribuição (**=**)
+Em todas essas variações usamos o simbolo arimetico da operação em questão seguido do operado de atribuição (**=**)  
+**vide:** *exercicios/operadores.js*
