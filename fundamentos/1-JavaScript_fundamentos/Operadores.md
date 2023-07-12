@@ -52,3 +52,7 @@ A solução seria essa:
     console.log(logradouro, numero)
 
 > vale lembrar que *endereço* nao sera uma variavel apenas **logradouro** e **numero**.
+
+No caso com **Arrays** algumas coisa mudam a primeira é que usaremos **colchetes []**, outra coisa que muda é que podemos pular elementos do **Array**.  
+
+**vide:** *exercicios/destructuring.js*
