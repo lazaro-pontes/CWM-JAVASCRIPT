@@ -32,3 +32,17 @@ Objetos são grupos aninhados de nome/valor. E podemos aninhar Objetos, inclusiv
             numero: 123
         }
     }
+
+## Notação ponto
+
+A notação ponto serve para acessarmos membros de uma função ou Objeto, tais como funções e valores.
+
+    console.log(Math.ceil(6.45))
+
+    const objeto_1 = {}
+    objeto_1.nome = `bola`
+    
+    console.log(objeto_1.nome)
+
+No exemplo acima temos o Objeto Math da api do JS e acessamos sua função que arredonda numeros para cima.
+Também criamos um atributo dinamicamente no Objeto 1.

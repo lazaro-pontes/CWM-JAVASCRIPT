@@ -20,3 +20,5 @@ const client = {
 console.log(saudacao)
 console.log(exec())
 console.log(client)
+
+console.log(console.log(3))
