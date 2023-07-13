@@ -102,4 +102,4 @@ Para falarmos de operadores Logicos precisamos entender o conceito de tabela ver
  Esse representa o **OU Excludente** para algo ser verdade os **operandos não podem ser iguais**
 
 - **NOT:**  
- Esse um operador unario no qual ele inverte o valor logico de algum operando, ou seja, o que é **TRUE** vira **FALSE** e vise-versa.
+ Esse um operador unario no qual ele i**nverte o valor logico** de algum operando, ou seja, o que é **TRUE** vira **FALSE** e vise-versa.
