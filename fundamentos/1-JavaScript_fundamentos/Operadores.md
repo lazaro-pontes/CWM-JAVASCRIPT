@@ -106,26 +106,26 @@ Para falarmos de operadores Logicos precisamos entender o conceito de tabela ver
 
 - **TABELA VERDADE:**  
 
-AND  
- 
+**AND.**  
+
     v e v --> verdadeiro
     v e f --> falso
     f e ? --> falso
 
-OR  
-    
+**OR.**  
+
     v ou ? --> verdadeiro
     f ou v --> verdadeiro
     f ou f --> falso
 
-XOR  
-    
+**XOR.**  
+
     v xor v --> falso
     v xor f --> verdadeiro
     f xor v --> verdadeiro
     f xor f --> falso
 
-NOT  
-    
+**NOT.**  
+
     !v --> falso
     !f --> verdadeiro
