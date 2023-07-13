@@ -96,7 +96,7 @@ Para falarmos de operadores Logicos precisamos entender o conceito de tabela ver
  Com AND para algo ser verdade os operandos tem que ser verdadeiros, ele representa o **conceito de E**, ou seja, pra eu sair hoje eu *preciso ter dinheiro E não chover*.
 
 - **OR:**  
- Para algo ser verdade apenas um dos operandos precisa ser verdade, representa o **conceito de OU**, exemplo: pra eu sair hoje eu **preciso ter dinheiro OU ter credito no cartão**
+ Para algo ser verdade apenas um dos operandos precisa ser verdade, representa o **conceito de OU**, exemplo: pra eu sair hoje eu *preciso ter dinheiro OU ter credito no cartão*
 
 - **XOR:**  
  Esse representa o **OU Excludente** para algo ser verdade os **operandos não podem ser iguais**
