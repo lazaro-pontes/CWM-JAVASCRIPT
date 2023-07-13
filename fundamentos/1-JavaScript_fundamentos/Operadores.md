@@ -92,14 +92,36 @@ Quais os operadores? são esses:
 
 Para falarmos de operadores Logicos precisamos entender o conceito de tabela verdade. Os operadores logicos são AND, OR, XOR e NOT.
 
-- **AND:**  
+- **AND: &&**  
  Com AND para algo ser verdade os operandos tem que ser verdadeiros, ele representa o **conceito de E**, ou seja, pra eu sair hoje eu *preciso ter dinheiro E não chover*.
 
-- **OR:**  
+- **OR: ||**  
  Para algo ser verdade apenas um dos operandos precisa ser verdade, representa o **conceito de OU**, exemplo: pra eu sair hoje eu *preciso ter dinheiro OU ter credito no cartão*
 
-- **XOR:**  
+- **XOR: != ou !!(operando1 ^ operando2)**  
  Esse representa o **OU Excludente** para algo ser verdade os **operandos não podem ser iguais**
 
-- **NOT:**  
+- **NOT: !**  
  Esse um operador unario no qual ele **inverte o valor logico** de algum operando, ou seja, o que é **TRUE** vira **FALSE** e vise-versa.
+
+- **TABELA VERDADE:**  
+
+AND
+    v e v --> verdadeiro
+    v e f --> falso
+    f e ? --> falso
+
+OR  
+    v ou ? --> verdadeiro
+    f ou v --> verdadeiro
+    f ou f --> falso
+
+XOR  
+    v xor v --> falso
+    v xor f --> verdadeiro
+    f xor v --> verdadeiro
+    f xor f --> falso
+
+NOT  
+    !v --> falso
+    !f --> verdadeiro
