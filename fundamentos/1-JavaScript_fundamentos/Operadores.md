@@ -53,7 +53,7 @@ A solução seria essa:
 
 > vale lembrar que *endereço* nao sera uma variavel apenas **logradouro** e **numero**.
 
-No caso com **Arrays** algumas coisa mudam a primeira é que usaremos **colchetes [ ]**, outra coisa que muda é que podemos pular elementos do **Array**. 
+No caso com **Arrays** algumas coisa mudam a primeira é que usaremos **colchetes [ ]**, outra coisa que muda é que podemos pular elementos do **Array**.  
 
     const [n1, , n3, , n5,n6 = 0] = [10, 7, 9, 8]
 
