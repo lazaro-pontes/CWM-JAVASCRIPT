@@ -77,14 +77,14 @@ Também são operadores binarios que fazem **comparação** entre **dois operand
 
 Quais os operadores? são esses:  
 
-- comparação de igualdade usamos **dois iguais: ==**
-- comparação estritamente igual usamos **três iguais ===**
-- comparação de diferença usamos **interrogação e igual !=**
-- comparação estritamente diferente usamos **interrogação e dois iguais !==**
-- comparação de menor que **usamos <**
-- comparação de maior que **usamos >**
-- comparação menor ou igual **usamos <=**
-- comparação maior ou igual **usamos >=**
+- comparação de **igualdade** usamos **dois iguais: ==**
+- comparação **estritamente igual** usamos **três iguais ===**
+- comparação de **diferença** usamos **interrogação e igual !=**
+- comparação **estritamente diferente** usamos **interrogação e dois iguais !==**
+- comparação de **menor que usamos <**
+- comparação de **maior que usamos >**
+- comparação **menor ou igual usamos <=**
+- comparação **maior ou igual usamos >=**
 
 > CUIDADO!!! em casos que estejas comparando variaveis de referencia a comparação sempre sera falsa pois ele estara comparando endereços de memoria
 
@@ -98,7 +98,7 @@ Para falarmos de operadores Logicos precisamos entender o conceito de tabela ver
 - **OR: ||**  
  Para algo ser verdade apenas um dos operandos precisa ser verdade, representa o **conceito de OU**, exemplo: pra eu sair hoje eu *preciso ter dinheiro OU ter credito no cartão*
 
-- **XOR: != ou !!(operando1 ^ operando2)**  
+- **XOR: !=** ou **!!(operando1 ^ operando2)**  
  Esse representa o **OU Excludente** para algo ser verdade os **operandos não podem ser iguais**
 
 - **NOT: !**  
