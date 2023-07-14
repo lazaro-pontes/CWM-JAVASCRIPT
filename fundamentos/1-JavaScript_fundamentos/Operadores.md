@@ -134,17 +134,17 @@ Para falarmos de operadores Logicos precisamos entender o conceito de tabela ver
 
 Operadores unários são aqueles operam com apenas um operando. Existem duas formas de usar: a **pre-fixada** e a **pós-fixada**. exemplos:
 
-- operador de negação logica: **!**
-- operador incremento: **++**
+- operador de negação logica: **!**  
+- operador incremento: **++**  
     Adiciona um ao seu operando. Se usado como operador prefixado (++x), retorna o valor de seu operando após a adição. Se usado como operador pósfixado (x++), retorna o valor de seu operando antes da adição.
 
-- operador decremento: **--**
+- operador decremento: **--**  
     Subtrai um de seu operando. O valor de retorno é análogo àquele do operador de incremento.
 
-- negação: **-**
+- negação: **-**  
     Operador unário. Retorna a negação de seu operando.
 
-- adição: **+**
+- adição: **+**  
     Tenta converter o operando em um número, sempre que possível.
 
 **vide:** *exercicios/operadorUnario.js*
