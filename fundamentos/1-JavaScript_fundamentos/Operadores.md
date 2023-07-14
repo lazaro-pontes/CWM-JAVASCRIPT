@@ -148,3 +148,13 @@ Operadores unários são aqueles operam com apenas um operando. Existem duas for
     Tenta converter o operando em um número, sempre que possível.
 
 **vide:** *exercicios/operadorUnario.js*
+
+## Operador Ternario
+
+Operador ternario usa 3 operandos o **primeiro** operando é uma **expressão relacional**, o **segundo** é o retorno **caso seja true** e o **terceiro** é o **retorno caso seja falso** exemplo:
+
+    nota >= 7 ? aprovado : reprovado
+
+> esse operador é com um if else
+
+**vide:** *exercicios/operadoresTernarios.js*
