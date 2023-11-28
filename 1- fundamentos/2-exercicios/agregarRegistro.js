@@ -16,17 +16,17 @@ const registros = [
 // função de agrupamento
 function agrupar(registros) {
 
-    const agrupado = []
 
-    registros.forEach(registro => {
-        const { data, qtd } = registro
+    return registros.reduce((acumulador, registro) => {
+        //console.log(acumulador, registro)
 
-        agrupado.push(data)
-    
+        const data = registro.data
+        const quantidade = registro.qtd
 
-    });
+        acumulador[data] = (acumulador[data] || 0) + quantidade
 
-    return agrupado
+        return acumulador
+    }, {})
 }
 
 console.log(agrupar(registros))
