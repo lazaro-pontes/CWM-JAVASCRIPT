@@ -10,3 +10,8 @@ Como ja vimos no outro capitulo de Boolean, varias expressoes podem ser transfor
 - bloco associado caso o resultado seja **true**
 
 > if (valor){ senteça de codigo caso **true**}
+> *vide:* exercicios/if.js
+
+Quando temos estruturas de controle podemos selecionar certas sentenças de codigo  
+pare serem executadas caso uma codição seja satisfeita. Diferente do fluxo comum que cada sentençã  
+é executada na ordem em que foi escrita. As estruturas de controle serve para direcionar o fluxo de dados.
