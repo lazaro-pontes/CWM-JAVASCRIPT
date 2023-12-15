@@ -8,3 +8,5 @@ Como ja vimos no outro capitulo de Boolean, varias expressoes podem ser transfor
 - palavra reservada **if**
 - pareteses com a condição a ser validada
 - bloco associado caso o resultado seja **true**
+
+> if (valor){ senteça de codigo caso **true**}
