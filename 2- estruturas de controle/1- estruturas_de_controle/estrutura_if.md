@@ -13,5 +13,5 @@ Como ja vimos no outro capitulo de Boolean, varias expressoes podem ser transfor
 > *vide:* exercicios/if.js
 
 Quando temos estruturas de controle podemos selecionar certas sentenças de codigo  
-pare serem executadas caso uma codição seja satisfeita. Diferente do fluxo comum que cada sentençã  
+para serem executadas caso uma codição seja satisfeita. Diferente do fluxo comum que cada sentença   
 é executada na ordem em que foi escrita. As estruturas de controle serve para direcionar o fluxo de dados.
