@@ -28,11 +28,10 @@ mas ao usar dessa forma apenas a primeira expressão sera considerada
 
 >vide: exercicios/if_2.js (aula 78)
 
-## IF/ELSE: 
+## IF/ELSE:
 
 blocos **if** tambem tem podem ter outro bloco associado chamado **else** esse bloco é retornado  
 caso a expressão entre parenteses sseja falsa, em inglês literalmente que dizer: **senão**
 
-muito cuidado com o fato de **javascript** ser fracamente tipado isso faz com que caso o valor que seja passado seja
-aceito porem entendi como **boolean** poderá haver bugs, é o caso de passarmos **strings** em codigos que esperam **NUMBER**
-
+muito cuidado com o fato de **javascript** ser fracamente tipado, isso faz com que caso o valor que seja passado seja
+aceito, porém entendido como **boolean** poderá haver bugs, é o caso de passarmos **strings** em codigos que esperam **NUMBER**
