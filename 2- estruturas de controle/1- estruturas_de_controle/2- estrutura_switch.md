@@ -45,3 +45,7 @@ Uma estrurura bem mais organizada para multi-seleções
     // console.log("fim!")
 }
 ```  
+
+> obs: diferente do **if** o **switch** não retorna verdadeiro ou falso, mas sim um valor (podendo ser de alguns tipos especificos)  
+  
+>
